@@ -1,0 +1,36 @@
+flags: {}
+packages:
+- '.'
+- location:
+    git: https://github.com/snapframework/snap
+    commit: 43cf62cba229c08619f16c84d367a6c54a30d8ca 
+  extra-dep: true
+- location:
+    git: https://github.com/snapframework/snap-core
+    commit: 3f49a1662cad466861b5ec4b1e88812328d26b1b
+  extra-dep: true
+- location:
+    git: https://github.com/snapframework/snap-server
+    commit: 6977049674f406944d325b1575d7e2b588da7c92 
+  extra-dep: true
+- location:
+    git: https://github.com/snapframework/xmlhtml
+    commit: 7779316d434cc23a5806539e29aa5a59f43d3391 
+  extra-dep: true
+- location:
+    git: https://github.com/snapframework/heist
+    commit: 9cf8d2ad56295dade398a1c28331cf54326c7a8b 
+  extra-dep: true
+- location:
+    git: https://github.com/snapframework/io-streams
+    commit: a0e88e1ffe8769907dc4f2200c20fcd0c55ac330 
+  extra-dep: true
+- location:
+    git: https://github.com/snapframework/io-streams-haproxy
+    commit: ee84473f6fe3a6049a40ea4156277efcfde37603 
+  extra-dep: true
+- location:
+    git: https://github.com/snapframework/snap-loader-static
+    commit: bcb720ce0b348371dc29f03d34547aa32f5aa9e4
+extra-deps: []
+resolver: lts-6.3
