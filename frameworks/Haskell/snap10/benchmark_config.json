@@ -1,5 +1,5 @@
 {
-  "framework": "snap",
+  "framework": "snap10",
   "tests": [{
     "default": {
       "setup_file": "setup",
@@ -11,14 +11,14 @@
       "approach": "Realistic",
       "classification": "Micro",
       "database": "MySQL",
-      "framework": "snap",
+      "framework": "snap10",
       "language": "Haskell",
       "orm": "Full",
       "platform": "Snap",
       "webserver": "None",
       "os": "Linux",
       "database_os": "Linux",
-      "display_name": "snap",
+      "display_name": "snap10",
       "notes": "",
       "versus": ""
     }
